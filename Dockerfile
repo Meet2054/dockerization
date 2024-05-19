@@ -8,7 +8,8 @@ COPY ./prisma .
 
 
 RUN npm install
-RUN npx prisma generate
+RUN npx prisma generateRUN npx prisma generate
+
 
 COPY . .
 
